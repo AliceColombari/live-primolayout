@@ -1,6 +1,7 @@
 .container-main{
     width: 100%;
     height: 500px;
+    border: 10px solid #000;
 }
 
 .sidebar{
@@ -13,6 +14,9 @@
 .content{
     background-color: red;
     float: right;
-    width: 70%;
+    width: 60%;
     height: 100%;
+    margin-left: 10%;
 }
+
+/* margin left rappresenta lo spazio tra le due colonne cioè gutter*/
