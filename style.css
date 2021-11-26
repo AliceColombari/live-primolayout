@@ -32,6 +32,17 @@ footer{
     background-color: purple;
 }
 
+
+/* lavoro tramite div vuoto
+
 .clearfix{
+    clear: both;
+} 
+
+oppure clear al div degli elementi in float*/
+
+.container-main::after{
+    content: "";
+    display: table;
     clear: both;
 }
