@@ -20,7 +20,7 @@ header{
     background-color: red;
     float: right;
     width: 60%;
-    
+    /* height: 100%; */
     margin-left: 10%;
 }
 
@@ -30,4 +30,8 @@ footer{
     height: 300px;
     width: 100%;
     background-color: purple;
+}
+
+.clearfix{
+    clear: both;
 }
